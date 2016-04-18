@@ -39,10 +39,10 @@ import panels.UIBPanel;
 import panels.UITFPanel;
 import panels.UIField;
 
- */																				*
+/* 
  * @author Irina Lavryonova														*
  * @version 2016-03-20
- * /
+ */
  
 public class SteppingFeet extends JFrame{
 
