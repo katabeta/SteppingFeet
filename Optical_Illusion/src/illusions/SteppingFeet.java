@@ -38,40 +38,12 @@ import panels.LightPanel;
 import panels.UIBPanel;
 import panels.UITFPanel;
 import panels.UIField;
-/********************************************************************************
- * Copyright (c) 2015. All rights reserved.										*
- *																				*
- * Redistribution and use in source and binary forms, with or without			*
- * modification for non-commercial use, is permitted provided that				*
- * the following conditions are met:											*
- *																				*
- *   - Redistributions of source code must retain this license box in			*
- *     its entirety and may not be modified, except when the modifications		*
- *     have been clearly identified, justified, the author and					*
- *     date indicated, and leave the original author, date and version			*
- *     number unaltered. 														*
- *																				*
- *   - Redistributions in binary form must reproduce this license box in the	*
- *     documentation and/or other materials provided with the distribution.		*
- *																				*
- *   - The name of the author may not be used to endorse or promote				*
- *     products derived from this software without specific prior				*
- *     written permission.														*
- *																				*
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER "AS IS" AND ANY EXPRESS	*
- * OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED			*
- * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE		*
- * DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER BE LIABLE FOR ANY DIRECT,	*
- * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR	CONSEQUENTIAL DAMAGES			*
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;	*
- * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND	*
- * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT	*
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF		*
- * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.			*
- * 																				*
+
+ */																				*
  * @author Irina Lavryonova														*
- * @version 1.0 "Stepping Feet" 2016-03-20, cn:"Aqua"							*
- ********************************************************************************/ 
+ * @version 2016-03-20
+ * /
+ 
 public class SteppingFeet extends JFrame{
 
 	/**
@@ -344,7 +316,6 @@ public class SteppingFeet extends JFrame{
 	 * Task for the timer
 	 * Calls the animate method a everything refresh unit
 	 * and manually sets where the layered content is 
-	 * @author Irina Lavryonova
 	 */
 	private class AnimateTask extends TimerTask{
 		@Override
